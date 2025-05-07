@@ -1,0 +1,7 @@
+# Ignore virtual environment directory
+.venv/
+
+# Ignore PyTorch model files
+*.pt 
+
+.DS_Store

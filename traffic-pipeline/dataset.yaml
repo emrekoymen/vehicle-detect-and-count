@@ -1,0 +1,11 @@
+path: ../datasets/yolo  # relative to this yaml file; points to your custom YOLO data
+train: images/train  # train images (relative to 'path')
+val: images/val  # val images (relative to 'path')
+test: images/test # test images (optional, relative to 'path')
+
+# Classes
+names:
+  0: car
+  1: bus
+  2: van
+  3: others 
